@@ -2,6 +2,9 @@
 
 public static class Settings 
 {
+    public static float runningSpeed = 5.333f;
+    public static float walkingSpeed = 2.666f;
+
     public static int xInput;
     public static int yInput;
     public static int isWalking; 
