@@ -30,7 +30,7 @@ public class Player : SingletonMonobehaviour<Player>
 
     private Rigidbody2D rigidbody2D;
 
-    public PlayerDirection playerMovementDirection;
+    private PlayerDirection playerMovementDirection;
 
     private float movementSpeed;
     protected override void Awake()
